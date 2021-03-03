@@ -21,14 +21,17 @@ Instruction:
 ************************************************************************************************************************
 - How to reach the goal?
 - The usage of the three gates:
+
 A. Adding gates:
 1. The rectangular port will be the port to connect with the number added to the target tile.
 2. The half-ellipse gate will be a passble gate where the number being pushed through is added with the amount of rectangular portal number.
 3. For example, we have 2 at rectangular port and push 1 through half-ellipse gate. Tile with 2 will remain unchanged, and tile with 1 will be added with 2 which becomes 3.
+
 B. Multiply gates:
 1. The rectangular port will be the port to connect with the multiplier.
 2. The half-ellipse gate will be a passble gate where the number being pushed through is the factor.
 3. For example, we have 3 at rectangular port and push 2 through half-ellipse gate. Tile with 3 will remain unchanged, and tile with 2 will be multiplied by 3 which becomes 6.
+
 C. Letter gates(ASCII gates):
 1. There is no rectangular port for this kind of gate.
 2. The half-ellipse gate will be a passble gate where the number being pushed through is converted to a letter based on a rule similar as ASCII value (A-Z as 1-26).
